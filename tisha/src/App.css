@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+}
+
+.img {
+    background-image: url("https://mdbootstrap.com/img/Others/documentation/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+
+/* // const img = {
+    //     backgroundImage: "url(" + "https://mdbootstrap.com/img/Others/documentation/4.jpg" + ")",
+    //     backgroundPosition: 'center',
+    //     backgroundSize: 'cover',
+    //     backgroundRepeat: 'no-repeat'
+    // } */
