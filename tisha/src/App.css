@@ -1,13 +1,14 @@
 body, html {
     height: 100%;
+    background-color: #2F323A;
 }
 
 .img {
-    background-image: url("https://mdbootstrap.com/img/Others/documentation/4.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("https://i.imgur.com/htdBu5p.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 
