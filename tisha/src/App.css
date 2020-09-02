@@ -1,20 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap');
+
 body, html {
     height: 100%;
     background-color: #2F323A;
+    /* background-color: #e5b93f; */
 }
 
-.img {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("https://i.imgur.com/htdBu5p.jpg");
+.brand {
+    font-family: 'Fredoka One', cursive;
+}
+
+h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aboutMeSection {
+    background-color: black;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.backgroundImg {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://i.imgur.com/htdBu5p.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
+#hr-bar {
+    border-top: 10px dotted rgba(0, 0, 0, 0.7);
+    margin: 2rem;
+}
 
-/* // const img = {
-    //     backgroundImage: "url(" + "https://mdbootstrap.com/img/Others/documentation/4.jpg" + ")",
-    //     backgroundPosition: 'center',
-    //     backgroundSize: 'cover',
-    //     backgroundRepeat: 'no-repeat'
-    // } */
+.avatar {
+    height: 300px;
+}
