@@ -1,9 +1,14 @@
 import React from "react";
 import ContactPage from "../components/Contact"
 
+import Card from 'react-bootstrap/Card';
+import CardImg from 'react-bootstrap/CardImg';
+
 function Contact() {
   return (
-    <ContactPage />
+    <div>
+      <ContactPage />
+    </div>
   );
 }
 
