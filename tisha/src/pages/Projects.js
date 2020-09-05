@@ -1,8 +1,9 @@
 import React from "react";
+import MyProjects from "../components/MyProjects"
 
 function Projects() {
   return (
-    <p>This is the Projects Page</p>
+    <MyProjects />
   );
 }
 

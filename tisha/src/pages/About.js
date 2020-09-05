@@ -6,13 +6,13 @@ import AboutMe from "../components/AboutMe";
 
 function About() {
     return (
-        <div>
+        <main>
             <JumbotronPic />
             <div className="aboutMeSection">
                 <Avatar />
                 <AboutMe />
             </div>
-        </div>
+        </main>
 
     );
 }
