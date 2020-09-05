@@ -1,29 +1,31 @@
 import React from "react";
 import MyProjectsCard from "./MyProjectsCard";
-import Row from 'react-bootstrap/Row';
+import projects from "../projects.json";
 
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 function MyProjects() {
-    <section>
-        <Container>
-            <h2>Development</h2>
-            <Row className="justify-content-around">
+    return (
+        <div>
+            <Container>
+                <Row className="justify-content-around">
 
-                {projects.map(project => (
-                    <MyProjectsCard
-                        key={project.id}
-                        img={project.img}
-                        title={project.title}
-                        tech={project.tech}
-                        deployLink={project.deployLink}
-                        repoLink={project.repoLink}
-                    />
-                ))}
+                    {projects.map(project => (
+                        <MyProjectsCard
+                            id={project.id}
+                            img={project.img}
+                            title={project.title}
+                            languages={project.languages}
+                            deployed={project.deployed}
+                            gitRepo={project.gitRepo}
+                        />
+                    ))}
 
-            </Row>
-        </Container>
-    </section>
+                </Row>
+            </Container>
+        </div>
+    )
 }
 
 export default MyProjects;
