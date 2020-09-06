@@ -11,17 +11,15 @@ const textColor = {
 
 function JumbotronPic() {
     return (
-        <div>
-            <Jumbotron fluid={true} className="backgroundImg">
-                    <Row className="justify-content-center py-5">
-                        <Col className="text-center" md={6}>
-                            <h1 className="display-4 font-weight-bolder" style={textColor}>Full Stack Developer</h1>
-                            <hr id="hr-bar"></hr>
-                            <h2 className="font-weight-light text-light">HTML/CSS | Bootstrap | JavaScript | jQuery | NodeJS | Express | MySQL | MongoDB | React</h2>
-                        </Col>
-                    </Row>
-            </Jumbotron>
-        </div>
+        <Jumbotron fluid={true} className="backgroundImg">
+            <Row className="justify-content-center py-5">
+                <Col className="text-center" md={6}>
+                    <h1 className="display-4 font-weight-bolder" style={textColor}>Full Stack Developer</h1>
+                    <hr id="hr-bar"></hr>
+                    <h2 className="font-weight-light text-light">HTML/CSS | Bootstrap | JavaScript | jQuery | NodeJS | Express | MySQL | MongoDB | React</h2>
+                </Col>
+            </Row>
+        </Jumbotron>
     )
 };
 

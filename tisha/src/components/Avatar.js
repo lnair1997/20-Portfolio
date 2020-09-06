@@ -14,10 +14,12 @@ function Avatar() {
             <Row className="text-center my-5" style={textColor}>
                 <Col>
                 <h3 className="my-5">Hi, I'm Lathisha...</h3>
-                    <Image src="/images/face.JPG"
-                        className="avatar"
+                <div className="wrapper">
+                <Image src="/images/face.JPG"
+                        width="307" height="340"
                         roundedCircle />
                         <br></br>
+                </div>
                 </Col>
             </Row>
         </Container>

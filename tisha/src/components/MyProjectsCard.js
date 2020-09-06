@@ -1,26 +1,29 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import CardImg from 'react-bootstrap/CardImg';
+import Image from 'react-bootstrap/Image';
 
 function MyProjectsCard({ img, title, languages, deployed, gitRepo }) {
     return (
-        <Container fluid={"md"}>
-            <Row className="justify-content-center py-5">
-                <Col md={5}>
-                    <Card className="card-style my-5">
-                        <CardImg src={img} alt="Card image cap" />
-                        <Card.Body>
-                            <Card.Title>{title}</Card.Title>
-                            <Card.Subtitle>This is a substitle </Card.Subtitle>
-                            <Card.Text>This is a description</Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-        </Container>
+        <Row className="mx-5 my-5 p-2 col-example text-left">
+            <Col md={6}>
+                <Card className="text-center bg-dark">
+                    <div className="overflow">
+                        <Image className="card-img-top" src={img} alt={title}></Image>
+
+                    </div>
+                    <Card.Body>
+                        <Card.Title style={{ color: '#FCCA46', fontFamily: 'Fredoka One' }}>{title}</Card.Title>
+                        <Card.Text className="font-weight-light text-white">{languages}</Card.Text>
+                        <div className="d-flex justify-content-center">
+                            <a href={gitRepo} target="_blank" className="btn btn-outline-info">Git Link</a>
+                            <a href={deployed} target="_blank" className="btn btn-outline-info">In Action!</a>
+                        </div>
+                    </Card.Body>
+                </Card>
+            </Col>
+        </Row>
     );
 }
 

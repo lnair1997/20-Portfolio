@@ -9,7 +9,7 @@ const textColor = {
 function AboutMe() {
     return (
         <Row className="justify-content-center" style={textColor}>
-            <Col lg={8}>
+            <Col md={8} className="w-responsive text-center mx-auto p-3 mt-2">
                 <h5>I was born/raised in India but currently reside in Arizona. I am a Front/Back-End Developer
                     that has found a new passion in the field, and have been loving every minute of it! </h5>
                 <br></br>

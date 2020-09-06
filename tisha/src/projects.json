@@ -1,49 +1,49 @@
 [
     {
         "id": 1,
-        "img": "/images/calendarpg.png",
+        "img": "/images/calendarpg.jpg",
         "title": "Streaker",
-        "languages": "",
+        "languages": "JS / Handlebars / MySQL",
         "deployed": "https://streaker-app.herokuapp.com/",
         "gitRepo": "https://github.com/scottsharris-az/Streaker"
     },
     {
         "id": 2,
-        "img": "/images/vegInPlace.JPG",
+        "img": "/images/vegInPlace.jpg",
         "title": "VeggInPlace Survival Kit",
-        "languages": "",
+        "languages": "JS / Bulma / jQuery",
         "deployed": "https://dpayton92.github.io/Vegg_In_Place_Survival_Kit/",
         "gitRepo": "https://github.com/dpayton92/Vegg_In_Place_Survival_Kit"
     },
     {
         "id": 3,
-        "img": "/images/codingQuiz.JPG",
+        "img": "/images/codingQuiz.jpg",
         "title": "Javascript Coding Quiz",
-        "languages": "",
+        "languages": "JS / Bootstrap",
         "deployed": "https://lnair1997.github.io/HW4-WebAPI/",
         "gitRepo": "https://github.com/lnair1997/HW4-WebAPI"
     },
     {
         "id": 4,
-        "img": "/images/weatherDis.JPG",
+        "img": "/images/weatherDis.jpg",
         "title": "Weather Dashboard",
-        "languages": "",
+        "languages": "JS / Bulma / Moment.js",
         "deployed": "https://lnair1997.github.io/HW6-Weather-Dashboard/",
         "gitRepo": "https://github.com/lnair1997/HW6-Weather-Dashboard"
     },
     {
         "id": 5,
-        "img": "/images/workdaySchedule.JPG",
+        "img": "/images/workdaySchedule.jpg",
         "title": "Workday Scheduler",
-        "languages": "",
+        "languages": "JS / Bootstrap",
         "deployed": "https://lnair1997.github.io/HW5-Work-Schedule/",
         "gitRepo": "https://github.com/lnair1997/HW5-Work-Schedule"
     },
     {
         "id": 6,
-        "img": "/images/generatePS.JPG",
+        "img": "/images/generatePS.jpg",
         "title": "Random Password",
-        "languages": "",
+        "languages": "JS",
         "deployed": "https://lnair1997.github.io/HW3-Password-Generator/",
         "gitRepo": "https://github.com/lnair1997/HW3-Password-Generator"
     }
