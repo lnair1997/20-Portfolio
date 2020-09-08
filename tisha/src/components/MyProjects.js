@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 const projectJumbo = {
-    backgroundColor: "#18897B",
+    backgroundColor: "#15796E",
     fontFamily: 'Fredoka One',
     marginBottom: '-15px',
 }
@@ -20,7 +20,7 @@ function MyProjects() {
             <Container className="d-flex flex-wrap justify-content-around">
                 {projects.map(project => (
                     <MyProjectsCard
-                        id={project.id}
+                        key={project.id}
                         img={project.img}
                         title={project.title}
                         languages={project.languages}

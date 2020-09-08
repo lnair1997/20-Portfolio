@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavigationBar from "./components/Navbar";
+import Footer from "./components/Footer";
 import './App.css';
 
 import About from "./pages/About";
@@ -16,7 +17,7 @@ class App extends React.Component {
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
 
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
     );
   }

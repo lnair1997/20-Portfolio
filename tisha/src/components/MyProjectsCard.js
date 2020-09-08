@@ -17,8 +17,8 @@ function MyProjectsCard({ img, title, languages, deployed, gitRepo }) {
                         <Card.Title style={{ color: '#FCCA46', fontFamily: 'Fredoka One' }}>{title}</Card.Title>
                         <Card.Text className="font-weight-light text-white">{languages}</Card.Text>
                         <div className="d-flex justify-content-center">
-                            <a href={gitRepo} target="_blank" className="btn btn-outline-info">Git Link</a>
-                            <a href={deployed} target="_blank" className="btn btn-outline-info">In Action!</a>
+                            <a href={gitRepo} target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">Git Link</a>
+                            <a href={deployed} target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">In Action!</a>
                         </div>
                     </Card.Body>
                 </Card>

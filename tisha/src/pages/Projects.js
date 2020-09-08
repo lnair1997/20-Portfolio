@@ -3,7 +3,7 @@ import MyProjects from "../components/MyProjects"
 
 const style={
   width: '100%',
-  backgroundColor: '#18897B',
+  backgroundColor: '#15796E',
 }
 
 function Projects() {
