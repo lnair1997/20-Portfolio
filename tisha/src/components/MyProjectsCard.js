@@ -6,9 +6,9 @@ import Image from 'react-bootstrap/Image';
 
 function MyProjectsCard({ img, title, languages, deployed, gitRepo }) {
     return (
-        <Row className="mx-5 my-5 p-2 col-example text-left">
+        <Row className="mx-5 my-5 p-2 text-left">
             <Col md={6}>
-                <Card className="text-center bg-dark">
+                <Card className="text-center bg-dark proj-card">
                     <div className="overflow">
                         <Image className="card-img-top" src={img} alt={title}></Image>
 
