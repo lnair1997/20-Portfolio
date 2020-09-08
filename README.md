@@ -1,4 +1,2 @@
-# 20-Portfolio
-
-# React Portfolio
-- Check it out by, [clicking here](https://lathishanair.netlify.app)
+# 20-React Portfolio
+- Check out my Portfolio by, [clicking here](https://lathishanair.netlify.app)
