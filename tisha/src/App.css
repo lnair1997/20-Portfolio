@@ -6,8 +6,12 @@ html, #root {
     /* background-color: #e5b93f; */
 }
 
+.navbar {
+    padding: 0.8rem !important;
+}
+
 .navbar-brand {
-    font-size: 1.5rem !important;
+    font-size: 1.8rem !important;
     font-family: 'Fredoka One', cursive;
 }
 
